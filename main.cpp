@@ -1,5 +1,5 @@
-#include <iostream>
+#include "foo.hpp"
 
 int main(void) {
-    std::cout << "Hello World!\n";
+	print_hello_world();
 }
