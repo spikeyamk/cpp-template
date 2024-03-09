@@ -8,10 +8,10 @@ if (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
 	add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-add_executable(main main.cpp
+add_executable(${PROJECT_NAME} main.cpp
 	lib/foo.cpp
-	)
+)
 
-target_include_directories(main PRIVATE
+target_include_directories(${PROJECT_NAME} PRIVATE
 	${CMAKE_CURRENT_LIST_DIR}/include
-	)
+)
