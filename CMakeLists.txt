@@ -9,7 +9,7 @@ add_executable(${PROJECT_NAME} main.cpp
 )
 
 if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
-    target_compile_options(${PROJECT_NAME} PRIVATE -Wall -Wextra -pedantic)
+    target_compile_options(${PROJECT_NAME} PRIVATE -Wall -Wextra -Wpedantic)
 elseif(MSVC)
     target_compile_options(${PROJECT_NAME} PRIVATE /W4)
 endif()
