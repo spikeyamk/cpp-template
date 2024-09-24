@@ -1,4 +1,4 @@
-#include "trielo/trielo.hpp"
+#include <trielo/trielo.hpp>
 #include "private.hpp"
 #include "submodule/public.hpp"
 
