@@ -1,0 +1,6 @@
+[submodule "deps/trielo"]
+	path = deps/trielo
+	url = https://github.com/spikeyamk/trielo
+[submodule "deps/3rdparty/json"]
+	path = deps/3rdparty/json
+	url = https://github.com/nlohmann/json.git
