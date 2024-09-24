@@ -4,6 +4,7 @@ set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 20)
 
 add_subdirectory("deps")
+enable_testing()
 add_subdirectory("src")
 
 if(CMAKE_BUILD_TYPE MATCHES "Debug")
