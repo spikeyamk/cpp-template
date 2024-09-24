@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "../returns_true.hpp"
+#include "../src/returns_true.hpp"
 
 TEST(top, returns_true_succeeds) {
     EXPECT_EQ(returns_true(), 1);
